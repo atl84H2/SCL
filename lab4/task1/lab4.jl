@@ -283,6 +283,9 @@ nt[:, 2] = beta2 * randn(num_iter)
 # ╔═╡ 06f6b1c8-8c40-440f-8825-1c0669a86d0b
 SIEiters(VTmodel, num_iter, modstep, time_array, p0, nt, qY1, qY2, qYtail, U)
 
+# ╔═╡ c1ce9445-34f4-4ab1-9e77-476a36d63fd3
+print(U);
+
 # ╔═╡ 97653d0a-421d-43fc-bac3-2cec4c622214
 pl_st_t = endtime - 200 * tau0;
 
@@ -1387,6 +1390,7 @@ version = "0.9.1+5"
 # ╠═87312134-2a24-48d1-9201-bdda60ff17ac
 # ╠═e78a8630-165e-4be7-8844-eddc233fb2c3
 # ╠═06f6b1c8-8c40-440f-8825-1c0669a86d0b
+# ╠═c1ce9445-34f4-4ab1-9e77-476a36d63fd3
 # ╠═97653d0a-421d-43fc-bac3-2cec4c622214
 # ╠═15a775a9-2965-4584-a003-2606d4359bf5
 # ╠═a8ee42fa-545b-49f1-af05-87a816f87266
